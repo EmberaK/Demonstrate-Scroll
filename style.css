@@ -1,0 +1,44 @@
+@import url(./reset.css);
+
+*{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero p{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.hero {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url(https://masterpiecer-images.s3.yandex.net/5f37061f87d511ee8083f6c574779d3e:upscaled);
+    background-repeat: no-repeat;  /* чтобы не было повторений */
+    background-size: cover;        /* картинка будет увеличивать в зависимости от кол-ства p */
+    background-attachment: scroll;
+}
+
+.block{
+    width: 300px;
+    height: 300px;
+    overflow: auto;
+    border: 3px solid black;
+    padding: 20px;
+    background-color: #fff;
+    background-image: url(https://img.freepik.com/premium-photo/tree-icon-vector-hd-8k-wallpaper-stock-photographic-image_915071-63061.jpg);
+    background-position: center;
+    color: #fff;
+}
+.container{
+    width: 100px;
+    height: 100px;
+    overflow: auto;
+
+}
